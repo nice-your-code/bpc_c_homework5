@@ -1,0 +1,7 @@
+mkdir folder
+cd folder
+touch a.txt
+touch b.txt
+touch c.txt
+mv `find a.txt` ..
+rm ../a.txt
